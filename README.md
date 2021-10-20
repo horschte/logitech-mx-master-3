@@ -1,9 +1,9 @@
 
-
-`sudo apt install cmake libevdev-dev libudev-dev libconfig++-dev
+```
+sudo apt install cmake libevdev-dev libudev-dev libconfig++-dev
 mkdir ~/build
+```
 
-`
 ```
 mkdir build
 cd build

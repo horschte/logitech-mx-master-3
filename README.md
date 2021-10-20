@@ -1,4 +1,3 @@
-# logiops
 
 This is an unofficial driver for Logitech mice and keyboard.
 

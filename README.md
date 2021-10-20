@@ -65,8 +65,6 @@ keys: ["KEY_LEFTCTRL", "KEY_LEFTALT", "KEY_DOWN"];
                 {
                     type: "Gestures";
                     gestures: (
-                        { direction: "Up";    mode: "OnRelease"; action = { type: "CycleDPI"; dpis: [400, 1000, 1600]; }; },
-                        { direction: "Down";  mode: "OnRelease"; action = { type: "ToggleHiresScroll"; }; },
                         { direction: "Left";  mode: "OnRelease"; action = { type: "Keypress"; keys: ["KEY_LEFTCTRL", "KEY_PAGEUP"]; }; },
                         { direction: "Right"; mode: "OnRelease"; action = { type: "Keypress"; keys: ["KEY_LEFTCTRL", "KEY_PAGEDOWN"]; }; },
                         { direction: "None"   mode: "NoPress" }

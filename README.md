@@ -3,7 +3,7 @@
 sudo apt install cmake libevdev-dev libudev-dev libconfig++-dev
 mkdir ~/build
 cd build
-git clone git clone https://github.com/horschte/logitech-mx-master-3
+git clone https://github.com/horschte/logitech-mx-master-3
 cmake logitech-mx-master-3
 make
 sudo make install
